@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-stories',
@@ -6,6 +6,18 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./stories.component.css']
 })
 export class StoriesComponent implements OnInit {
+  @Input()
+  cover:string = "";
+  @Input()
+  title:string = "";
+  @Input()
+  description:string= "";
+  @Input()
+  authorPhoto:string= "";
+  @Input()
+  authorName:string= "";
+  @Input()
+  date:string= "";
 
   constructor() { }
 
