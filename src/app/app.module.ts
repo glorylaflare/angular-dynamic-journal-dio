@@ -9,6 +9,7 @@ import { StoriesComponent } from './components/stories/stories.component';
 import { PagesToggleComponent } from './components/pages-toggle/pages-toggle.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { CategoriesComponent } from './components/categories/categories.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { CategoriesComponent } from './components/categories/categories.componen
     StoriesComponent,
     PagesToggleComponent,
     FooterComponent,
-    CategoriesComponent
+    CategoriesComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
