@@ -15,6 +15,7 @@ export class ContentComponent implements OnInit {
   date:string = ""
   description:string = ""
   category:string = ""
+  learnMore:string = ""
   private id:string | null = "0"
 
   constructor(
