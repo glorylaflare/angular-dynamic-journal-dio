@@ -42,7 +42,6 @@
 
 .categories ul > li {
     list-style: none;
-    cursor: pointer;
 }
 
 .categories .active {

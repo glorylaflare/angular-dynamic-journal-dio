@@ -10,7 +10,3 @@
     display: grid;
     grid-template-columns: 80% 20%;
 }
-
-.footer {
-    margin-top: 50px;
-}

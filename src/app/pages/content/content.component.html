@@ -1,1 +1,20 @@
-<p>content works!</p>
+<div class="container">
+    <div class="category">
+        <p><a [routerLink]="['']">Home</a> > <span>{{ category }}</span></p>
+    </div>
+    <h1 class="title">{{ title }}</h1>
+    <img class="cover" src="{{ cover }}">
+    <div class="header-infos">
+        <div class="author">
+            <img src="{{ authorPhoto }}">
+            <div class="author-infos">
+                <p class="author-name">{{ authorName }}</p>
+                <p class="date">Atualizado em <span>{{ date}}</span></p>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="description">
+       {{ description }}
+    </div>
+</div>
