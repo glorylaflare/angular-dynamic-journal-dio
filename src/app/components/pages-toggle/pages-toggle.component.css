@@ -1,0 +1,39 @@
+.pages-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 65px;
+}
+
+.previous, 
+.next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 6px 12px;
+    font-weight: 600;
+    background: transparent;
+    border: 1px solid rgba(18, 25, 39, .3);
+    border-radius: 8px;
+}
+
+.pages-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    list-style: none;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.pages-list li {
+    padding: 0 15px 5px 15px;
+}
+
+.active {
+    color: purple;
+    border-bottom: 3px solid purple;
+}
